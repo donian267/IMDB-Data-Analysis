@@ -4,7 +4,6 @@
 This data analysis project was created to provide insights that will lead to a commercially successful movie. By analyzing  various aspects of this IMDB dataset, I'm seeking to find trends, make data-driven recommendations, and gain a better understanding of the path that leads to a profitable movie.
 
 ### Data Source
-
 The dataset was created by 'Chidambara Raju G' from kaggle. https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset/data
 
 ### Tools
@@ -207,3 +206,11 @@ SELECT genre,year, avg_budget, avg_box_office
 FROM GenreStats
 ORDER BY year, avg_box_office DESC;
 ```
+
+### Results/Findings
+- Genres categorized as "Adventure" average overall the highest box office numbers, followed by "Fantasy", "Family", "Action", and "animation. "Animation" averaged the highest budget and "Horror" has the highest ROI.
+- Movies rated "PG-13" average the highest in box office numbers followed by rated "G". Movies rated "PG" had the highest ROI. There was only 1 movie rated "X".
+- After a movie has a rating of 8 or above, there doesn't seem to be a difference in box office numbers.
+- Between 1968 and 2022, movies categorized as "Adventure", "Action", "Drama", "Sci-Fi", and "Comedy" see a steady increase in box office numbers
+- "Rocky", "Star Wars A New Hope", "Jaws", "A Separation, and "The Intouchables" have the highest ROI. Of the top 20 movies with the highest ROI, "Joker" has the Highest box office.
+  
