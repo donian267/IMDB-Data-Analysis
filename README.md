@@ -88,9 +88,6 @@ from movies
 where compromised = 'good'
 order by roi desc
 
-
-
-
 -- checking to see all of the different movie genre types
 SELECT genre, COUNT(*) AS count
 FROM (
@@ -185,7 +182,6 @@ SELECT
 FROM rMovies
 WHERE rank = 1;
 
-
 WITH SplitGenres AS (
     SELECT TRIM(value) AS genre, box_office, budget, year
     FROM movies
@@ -212,5 +208,22 @@ ORDER BY year, avg_box_office DESC;
 - Movies rated "PG-13" average the highest in box office numbers followed by rated "G". Movies rated "PG" had the highest ROI. There was only 1 movie rated "X".
 - After a movie has a rating of 8 or above, there doesn't seem to be a difference in box office numbers.
 - Between 1968 and 2022, movies categorized as "Adventure", "Action", "Drama", "Sci-Fi", and "Comedy" see a steady increase in box office numbers
-- "Rocky", "Star Wars A New Hope", "Jaws", "A Separation, and "The Intouchables" have the highest ROI. Of the top 20 movies with the highest ROI, "Joker" has the Highest box office.
+- "Rocky", "Star Wars A New Hope", "Jaws", "A Separation", and "The Intouchables" have the highest ROI. Of the top 20 movies with the highest ROI, "Joker" has the Highest box office.
+
+### Recommendations
+- Aim for movies categorized as "adventure" with a "PG-13" for the highest box office probability.
+- There is a risk with the adventure genre. It averages the third highest budget.
+- If the budget is limited, the "horror" genre averages the lowest budget with the highest return on investment.
+- Movies tagged with "adventure", "action", "drama", and "comedy" have a steady increase in box office numbers. Focusing on these tags should lead to a successful movie.
+
+### Limitations
+- I excluded movies before 1968 for budget and box office because the numbers weren't reliable.
+- Some of the movies used international currency for box office and numbers. I updated the numbers to US currency when possible. If not, the data was excluded. 
+
+
+
+
+
+
+
   
