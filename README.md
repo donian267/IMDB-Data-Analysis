@@ -21,9 +21,9 @@ The dataset was created by 'Chidambara Raju G' from kaggle. https://www.kaggle.c
 
 ### Exploratory Data analysis
 Exploring the data to answer key questions such as:
--Which movies have the highest box office?
--Which movies have the best return on investment?
-What trends lead to a movie having high box office numbers?
+- Which movies have the highest box office?
+- Which movies have the best return on investment?
+- What trends lead to a movie having high box office numbers?
 
 ### Data Analysis
 
