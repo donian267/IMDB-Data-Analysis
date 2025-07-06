@@ -24,7 +24,7 @@ Exploring the data to answer key questions such as:
 
 ### Data Analysis
 
--Here's a link to the interactive dashboard <a href=["repository_url](https://public.tableau.com/views/Imdbdashboard_17518289620730/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)">Dashboard</a>
+-Here's a link to the interactive dashboard <a href=(https://public.tableau.com/views/Imdbdashboard_17518289620730/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)">Dashboard</a>
 
 ```SQL
 -- creating a new table to work on
