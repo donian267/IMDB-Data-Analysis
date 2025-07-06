@@ -3,9 +3,6 @@
 ### Project Overview
 This data analysis project was created to provide insights that will lead to a commercially successful movie. By analyzing  various aspects of this IMDB dataset, I'm seeking to find trends, make data-driven recommendations, and gain a better understanding of the path that leads to a profitable movie.
 
-![Dashboard 1](https://github.com/user-attachments/assets/ae8da570-d4b1-49b1-89da-f14882260c02)
-
-
 ### Data Source
 The dataset was created by 'Chidambara Raju G' from kaggle. https://www.kaggle.com/datasets/rajugc/imdb-top-250-movies-dataset/data
 
